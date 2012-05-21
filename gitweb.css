@@ -263,6 +263,10 @@ th .header {
   margin: 0 auto 15px auto;
 }
 
+.list_head {
+  display:none;
+}
+	
 .history {
   background: #eaeaea;
 }
