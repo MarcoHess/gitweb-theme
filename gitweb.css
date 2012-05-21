@@ -90,9 +90,9 @@ td, th {
   padding: 5px;
 }
 
-.page_nav br {
-  display: none;
-}
+.page_nav > br {
+  display: block;
+} 
 
 /* Page Header
 ---------------------------------------------------------------------------- */
@@ -266,6 +266,7 @@ th .header {
 .list_head {
   display:none;
 }
+
 .history {
   background: #eaeaea;
 }
@@ -411,6 +412,7 @@ span.refs a {
 .rem {
   background: #ffdddd;
 }
+
 .add {
   background: #ddffdd;
 }
