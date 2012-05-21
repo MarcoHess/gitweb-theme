@@ -266,7 +266,6 @@ th .header {
 .list_head {
   display:none;
 }
-	
 .history {
   background: #eaeaea;
 }
@@ -414,6 +413,40 @@ span.refs a {
 }
 .add {
   background: #ddffdd;
+}
+
+/* side-by-side diff
+---------------------------------------------------------------------------- */
+
+div.chunk_block {
+  overflow: hidden;
+}
+
+div.chunk_block div.old {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+
+div.chunk_block div.new {
+  margin-left: 50%;
+  width: 50%;
+}
+
+div.chunk_block.rem div.old div.diff.rem {
+  background-color: #ffdddd;
+}
+
+div.chunk_block.add div.new div.diff.add {
+  background-color: #ddffdd;
+}
+
+/*div.chunk_block.chg div     div.diff {
+  background-color: #fffff0;
+}*/
+
+div.chunk_block.ctx div     div.diff.ctx {
+  color: #505050;
 }
 
 /* Age
