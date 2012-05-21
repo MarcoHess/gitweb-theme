@@ -180,6 +180,7 @@ a.rss_logo:hover {
 ---------------------------------------------------------------------------- */
 
 .project_list,
+.readme,
 .shortlog,
 .tree,
 .commit_search,
@@ -198,6 +199,10 @@ a.rss_logo:hover {
 .commit_search th {
   color: #afafaf;
   font-weight: normal;
+}
+
+div.readme {
+  padding: 5px;
 }
 
 .project_list th {
