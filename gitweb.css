@@ -267,8 +267,16 @@ th .header {
   background: #eaeaea;
 }
 
-.title {
-  width: 95%;
+body > .title {
+  display:none;
+}
+
+body > .title ~ .title {
+  display: block;
+  width: 94%;
+  background: #eaf2f5;
+  border: 1px solid #bedce7;
+  font-weight: bold;
   padding: 5px;
   margin: 0 auto 15px auto;
 }
